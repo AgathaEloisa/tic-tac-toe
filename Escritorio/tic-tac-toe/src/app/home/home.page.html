@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <img class="logo" src="./assets/img/gato1.png" alt="gato">
+    <ion-title>
+      {{title | uppercase}}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <h5 class="ion-padding" for="turn">Turno de: {{turn}} </h5>
+  </div>
+  <div class="cell ion-padding" [ngClass]="{'col-board': col !== 2, 'row-board': row !== 2}">
+    {{piece}}
+  </div>
+</ion-content>
+
+<!-- Subir cambios a github -->

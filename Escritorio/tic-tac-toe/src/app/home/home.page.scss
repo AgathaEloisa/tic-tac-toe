@@ -1,0 +1,30 @@
+.logo {
+    width: 4em;
+}
+
+/*Estilo de las celdas*/
+.cell{
+    width: 6.5em;
+    height: 6.5em;
+    //Lo que vaya en su interior
+    // box-sizing: border-box;
+    // font-size: 5em;
+//     font-family: sans-serif;
+//     color: black;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.cell:hover {
+    background-color: #c1cdcd;
+    cursor: pointer;
+}
+
+.col-board {
+    border-right: .3em solid black;
+}
+
+.row-board{
+    border-bottom: .3em solid black;
+}
